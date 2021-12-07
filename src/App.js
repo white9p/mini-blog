@@ -1,23 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import CardComponents from './components/CardComponents';
+import PopCard from './components/PopCard';
+import "bootstrap/dist/css/bootstrap.css"
+import CardsContainers from './containers/CardsContainers';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <CardsContainers/>
     </div>
   );
 }
